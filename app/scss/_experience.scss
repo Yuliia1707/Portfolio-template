@@ -1,0 +1,42 @@
+.experience {
+
+    &__title {
+        font-size: 24px;
+        font-weight: 500;
+        color: $dark-color;
+        margin-bottom: 16px;
+    }
+
+    &__items {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin-bottom: 128px;
+    }
+
+    &__items-item {
+    }
+
+    &__items-item--subtitle {
+        font-size: 16px;
+        font-weight: 500;
+        color: $medium-color;
+        margin-bottom: 8px;
+        line-height: 25.6px; 
+    }
+
+    &__items-item--text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.6px; 
+        color: $medium-color;
+        margin-bottom: 8px;
+    }
+
+    &__items-item--data {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25.6px; 
+        color: $light-color;
+    }
+}

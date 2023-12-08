@@ -1,0 +1,50 @@
+// !vars
+$dark-color: #444;
+$medium-color: #666;
+$light-color: #999;
+$bg-color: #F9F9F9;
+
+$radius-sm: 8px;
+$radius-md: 14px;
+$radius-lg: 24px;
+$radius-rounded: 50%;
+
+
+// !breakpoints
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1440px;
+$breakpoint-xxl: 1920px;
+
+
+// !MIXINS
+@mixin viewport-sm {
+    @media screen and (min-width: $breakpoint-sm) {
+        @content;
+    }
+}
+
+@mixin viewport-md {
+    @media screen and (min-width: $breakpoint-md) {
+        @content;
+    }
+}
+
+@mixin viewport-lg {
+    @media screen and (min-width: $breakpoint-lg) {
+        @content;
+    }
+}
+
+@mixin viewport-xl {
+    @media screen and (min-width: $breakpoint-xl) {
+        @content;
+    }
+}
+
+@mixin viewport-xxl {
+    @media screen and (min-width: $breakpoint-xxl) {
+        @content;
+    }
+}

@@ -1,0 +1,27 @@
+.works {
+    
+    &__title {
+        font-size: 24px;
+        font-weight: 500;
+        color: $dark-color;
+        margin-bottom: 16px;
+    }
+
+    &__cards {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin-bottom: 128px;
+    }
+
+    &__cards-item {
+    }
+
+    &__cards-item--img {
+        width: 100%;
+        height: 233px;
+        overflow: hidden;
+        object-fit: cover;
+    }
+}
+

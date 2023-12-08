@@ -1,0 +1,39 @@
+.cards {
+
+    &__items {
+        li {
+            margin-bottom: 80px;
+        }
+        li:nth-child(3) {
+            margin-bottom: 128px;
+        }
+    }
+
+    &__items--img {
+    width: 100%;
+    height: 188px;
+    overflow: hidden;
+    object-fit: cover;
+    }
+
+    &__items--title {
+        font-size: 16px;
+        font-weight: 500;
+        color: $dark-color;
+        margin: 16px 0 8px 0;
+    }
+
+    &__items--text {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 25.6px;
+        color: $light-color;
+        margin-bottom: 16px;
+    }
+
+    &__items--link {
+        font-size: 16px;
+        font-weight: 500;
+        color: $dark-color;
+    }
+}

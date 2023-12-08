@@ -1,0 +1,32 @@
+.header {
+
+    &__box {
+        margin: 40px 0 128px 0;
+    }
+
+    &__box-svg {
+    }
+
+    &__box-title {
+        color: $dark-color;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 38.4px;
+        margin-right: -10px;
+        margin-bottom: 8px;
+    }
+    &__box-text {
+        color: $light-color;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 25.6px; 
+        margin-bottom: 16px;
+    }
+
+    &__box-link {
+        color: $dark-color;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
