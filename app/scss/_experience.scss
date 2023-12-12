@@ -12,9 +12,26 @@
         flex-direction: column;
         gap: 24px;
         margin-bottom: 128px;
+        @include viewport-md {
+            flex-direction: row;
+            flex-wrap: wrap;
+            row-gap: 48px;
+            :nth-child(4) {
+                flex: 0 0 30%;
+            }
+            :nth-child(5) {
+                flex: 0 0 30%;
+            }
+        }
     }
 
     &__items-item {
+        @include viewport-md {
+            flex: 1 1 40%;
+        }
+        @include viewport-lg {
+            flex: 1 1 30%;
+        }
     }
 
     &__items-item--subtitle {

@@ -12,9 +12,19 @@
         flex-direction: column;
         gap: 24px;
         margin-bottom: 128px;
+        @include viewport-lg {
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
     }
 
     &__cards-item {
+        @include viewport-lg {
+            flex: 1 1 45%;
+        }
+        @include viewport-xl {
+            flex: 1 1 30%;
+        }
     }
 
     &__cards-item--img {
@@ -22,6 +32,9 @@
         height: 233px;
         overflow: hidden;
         object-fit: cover;
+        @include viewport-lg {
+            height: 188px;
+        }
     }
 }
 

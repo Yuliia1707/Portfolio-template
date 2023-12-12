@@ -11,7 +11,7 @@
 		<div class="container">
 			<div class="header__box">
 				<svg class="header__box-svg">
-					<use></use>
+					<use xlink:href="#mete"></use>
 				</svg>
 				<h1 class="header__box-title">Welcome to my Portfolio 👋</h1>
 				<p class="header__box-text">I’m Mete. I’m 24-year-old. I’m a Digital Product Designer who prioritizes simplicity and usability. Currently, I'm Digital Product Designer on Norma. Formerly Enrich Mobile, ASDC, TalentMondo, and MobileUpp. I love working on side projects, trying to improve myself on SwiftUI and Webflow.</p>
@@ -91,9 +91,36 @@
 				</ul>
 			</div>
 		</section>
+
+		<section class="help">
+			<div class="container">
+				<div class="wrap">
+					<h2 class="help__title">Looking for help with design</h2>
+					<p class="help__subtitle">Send me details</p>
+					<form class="help__form">
+                        <label class="help__form-title" for="name">Name</label>
+						<input class="help__form-input" type="text" id="name" placeholder="Enter your name">
+						<label class="help__form-title" for="email">Email Address</label>
+						<input class="help__form-input" type="email" id="email" placeholder="Enter your email">
+						<label class="help__form-title" for="message">Detail</label>
+						<textarea class="help__form-message" type="text" id="message" placeholder="Enter your message"></textarea>
+					</form>
+					<a class="help__btn" href="#">Submit</a>
+				</div>
+			</div>
+		</section>
 	</main>
 	
 	
+	<svg xmlns="http://www.w3.org/2000/svg">
+		<symbol id="mete" width="48" height="48" viewBox="0 0 48 48">
+				<circle cx="24" cy="24" r="24" fill="#e0e0e0" />
+				<circle cx="24" cy="16" r="10" fill="#fddbb1" />
+				<rect x="20" y="18" width="8" height="4" fill="#8b572a" />
+				<rect x="20" y="13" width="8" height="2" fill="#333" />
+				<rect x="21" y="14" width="6" height="1" fill="#e0e0e0" />
+		</symbol>
+	</svg>
 	<script src="js/main.min.js"></script>
 </body>
 </html>
