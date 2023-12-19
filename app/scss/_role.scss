@@ -1,0 +1,31 @@
+.role {
+    margin-bottom: 128px;
+    &__list {
+        @include viewport-lg {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+        }
+        @include viewport-xl {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    &__list-items {
+    }
+
+    &__list-items--title {
+        color: $dark-color;
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+
+    &__list-items--text {
+        line-height: 25.6px;
+        font-size: 16px;
+        font-weight: 300;
+        color: $light-color;
+        margin-bottom: 24px;
+    }
+}

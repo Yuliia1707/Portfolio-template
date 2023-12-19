@@ -1,0 +1,52 @@
+.footer {
+    margin: 32px 0 24px 0;
+    text-align: center;
+
+    &__title {
+    }
+
+
+    &__title-text {
+        color: $light-color;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 24px;
+        gap: 32px;
+        @include viewport-xl {
+            margin-top: 0;
+            gap: 48px;
+        }
+    }
+
+    &__list-item {
+        a {
+            text-transform: lowercase;
+            text-decoration: none;
+            color: $light-color;
+            font-size: 14px;
+            font-weight: 400;
+            display: block;
+            text-align: center;
+            @include viewport-xl {
+                display: block;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.flex {
+    @include viewport-xl {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin-top: 64px;
+    }
+}
